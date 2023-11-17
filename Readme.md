@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Дарья Евдокимова](https://up.htmlacademy.ru/htmlcss-individual/1/user/2409375).
-* Наставник: `Неизвестно`.
+- Студент: [Дарья Евдокимова](https://up.htmlacademy.ru/htmlcss-individual/1/user/2409375).
+- Наставник: `Евгения Подопригора`. (https://htmlacademy.ru/profile/id2387199)
 
 ---
 
