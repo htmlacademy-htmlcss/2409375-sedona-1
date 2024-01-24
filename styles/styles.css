@@ -19,12 +19,11 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
-  color:black;
+  color: #333333;
   background-color: #F2F2F2;
 }
 
-.page-header {
-  color:#000000;
+.page-container {
   background-color: #FFFFFF;
 }
 
@@ -137,6 +136,7 @@ body {
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
+  color:#000000;
   text-transform: uppercase;
 }
 
