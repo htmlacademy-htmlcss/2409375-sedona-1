@@ -248,6 +248,11 @@ body {
 .main-footer a {
 color: #000000;
 }
+.main-inner {
+  background-image: url("../images/backgrounds/backgraund-catalog.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 
 .catalog-title {
   Font-size: 60px;
@@ -255,9 +260,6 @@ color: #000000;
   line-height: 78px;
   color: #FFFFFF;
   background-color: #82B3D3;
-  background-image: url("../images/backgrounds/backgraund-catalog.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .breadcrumbs {
