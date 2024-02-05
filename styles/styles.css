@@ -61,6 +61,7 @@ body {
   url("../images/backgrounds/vector-hero.svg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: gray;
 }
 
 .description {
