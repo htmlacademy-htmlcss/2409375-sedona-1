@@ -192,26 +192,41 @@ body {
   text-align: center;
 }
 
-.newsletter-theme-custom{
-  color:#FFFFFF;
-  background-color: #82B3D4;
+.newsletter-theme-custom {
   background-image: url("../images/backgrounds/subscribe.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.newsletter-title-custom {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  color:#FFFFFF;
+  background-color: #82B3D4;
+  text-transform: uppercase;
+}
 .newsletter-title {
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
+  color:#000000;
+  background-color: #FFFFFF;
   text-transform: uppercase;
+}
+
+.newsletter-text-custom {
+  font-size: 22px;
+  line-height: 26px;
+  color:#FFFFFF;
+  background-color: #82B3D4;
 }
 
 .newsletter-text {
   font-size: 22px;
-  font-style: normal;
   line-height: 26px;
-  color: #FFFFFF;
+  color:#000000;
+  background-color: #FFFFFF;
 }
 
 .newsletter-subscribes {
@@ -370,7 +385,7 @@ background-color: #82B3D3;
 }
 
 .pagination-item a {
- text-decoration: none;
+  text-decoration: none;
 }
 
 .newsletter-title {
