@@ -197,6 +197,7 @@ body {
   background-image: url("../images/backgrounds/subscribe.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #82B3D4;
 }
 
 .newsletter-title-custom {
@@ -204,7 +205,6 @@ body {
   font-weight: 700;
   line-height: 36px;
   color:#FFFFFF;
-  background-color: #82B3D4;
   text-transform: uppercase;
 }
 .newsletter-title {
@@ -220,7 +220,6 @@ body {
   font-size: 22px;
   line-height: 26px;
   color:#FFFFFF;
-  background-color: #82B3D4;
 }
 
 .newsletter-text {
