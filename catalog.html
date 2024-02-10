@@ -3,12 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Каталог</title>
+  <link rel="stylesheet" href="styles/styles.css">
+
+  <style>
+    ul {
+    list-style-type: none;
+    }
+  </style>
 </head>
 <body>
+  <div class="page-container">
   <header class="page-header">
     <a class="logo-link" href="#">
-      <img class="logo" src="images/logo.svg" alt="Логоти Седоны" width="140" height="70">
+      <img class="logo" src="images/logo.svg" alt="Логоти Седоны." width="140" height="70">
     </a>
     <nav class="navigation">
       <ul class="navigation-list">
@@ -30,11 +38,12 @@
         </li>
         <li class="navigation-item">
           <a class="navigation-link" href="#">
-            <span class="visually-hidden">Понравившееся</span>
+            <span class="navigation-favorites">12</span>
+            <span class="visually-hidden">Избранное</span>
           </a>
         </li>
       </ul>
-      <button class="main-header-button">Хочу сюда!</button>
+      <button class="main-header-button" type="button">Хочу сюда!</button>
     </nav>
   </header>
 
@@ -113,7 +122,7 @@
       </form>
     </section>
     <section class="result">
-      <div class="sorting">
+      <div class="sorting-container">
         <h2 class="sorting-hotels">Найдено гостиниц: 38</h2>
         <select class="select-control" aria-label="Сортировка">
           <option value="popular">Сначала популярное</option>
@@ -192,7 +201,7 @@
       </ul>
       <ul class="pagination">
         <li class="pagination-item">
-          <a class="pagination-link" href="#">1</a>
+          <a class="pagination-link pagination-active" href="#">1</a>
         </li>
         <li class="pagination-item">
           <a class="pagination-link" href="#">2</a>
@@ -212,12 +221,12 @@
         </li>
       </ul>
     </section>
-    <section class="subscribes">
-      <h2 class="subscribes-title">Подпишитесь на рассылку</h2>
-      <p class="subscribes-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
-      <form class="subscribes-send" method="post" action="https://echo.htmlacademy.ru/">
-        <input class="subscribes-send" name="e-mail" type="email" placeholder="Ваш e-mail">
-        <button class="subscribes-button" type="submit">Подписаться</button>
+    <section class="newsletter">
+      <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
+      <p class="newsletter-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
+      <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+        <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+          <button class="newsletter-subscribes" type="button">Подписаться</button>
       </form>
     </section>
   </main>
@@ -239,5 +248,6 @@
       <img class="html-logo" src="images/html-logo.svg" alt="логотип сайта html академии." width="115" height="33">
     </a>
   </footer>
+  </div>
 </body>
 </html>
