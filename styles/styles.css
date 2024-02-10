@@ -212,7 +212,6 @@ body {
   font-weight: 700;
   line-height: 36px;
   color:#000000;
-  background-color: #FFFFFF;
   text-transform: uppercase;
 }
 
@@ -226,7 +225,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   color:#000000;
-  background-color: #FFFFFF;
+
 }
 
 .newsletter-subscribes {
